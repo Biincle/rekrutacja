@@ -1,0 +1,54 @@
+.input-group{
+  display: inline-block;
+  width: 80%;
+  input{
+    width: 45%;
+    margin-bottom: 20px;
+    @font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+
+    font-size: 15px;
+    &:first-of-type{
+      margin-right: 23px;
+    }
+     &[type="text"]{
+       height: 42px;
+       border-top: none;
+       border-left: none;
+       border-right: none;
+       border-bottom: 1px solid $light-gray-border-color;
+     }
+  }
+  textarea{
+    height:110px;
+        max-width: 95%;
+    padding: 15px 20px;
+    @font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid $light-gray-border-color;
+    background-color: $sitebg-color;
+  }
+}
+
+// Mobilka
+ @media screen and (max-width: $mobile-break) {
+   .input-group{
+     display: grid;
+     width: 100%;
+     input{
+       width:90%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+    textarea{
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   }
+
+ }

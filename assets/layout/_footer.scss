@@ -1,0 +1,29 @@
+@font-face {
+font-family: "Raleway-Medium";
+src: url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype"); }
+.footer{
+  bottom:0;
+  height: 104px;
+   background-color: $blue-color;
+   text-align: center;
+ p.footer__text{
+   color:$white-color;
+   padding-top:40px;
+   color:#fff;
+   font-family: "Raleway-Medium";
+   margin-top:0;
+ }
+
+}
+
+
+   @media screen and (max-width: $mobile-break) {
+     .footer{
+     margin-top:150px;
+   }
+   }
+@media (min-width: $tablet-break) and (max-width: 1024px) {
+  .footer{
+  margin-top:0!important;
+}
+}

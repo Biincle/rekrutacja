@@ -1,0 +1,23 @@
+.buttonDefault {
+  min-width: 200px;
+  height: 48px;
+  background-color: $light-gray-color;
+  color: $light-gray-border-color;
+  border:none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  @font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+
+.btn-success{
+    background-color: $green-color;
+    color: $white-color;
+}

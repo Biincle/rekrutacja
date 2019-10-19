@@ -1,0 +1,58 @@
+
+
+
+.header{
+  height: 720px;
+  overflow: hidden;
+  @include background('pp-main-background.jpg');
+}
+
+.header__content{
+  color:$white-color;
+  text-align: center;
+margin-top:150px;
+
+  h5{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h1{
+    font-weight: lighter;
+    margin:0;
+    @font-face {
+    font-family: "Millunium-Medium";
+    src: url("../fonts/Millunium/Millunium-Medium.ttf") format("truetype"); }
+  }
+  p{
+    margin: 0 auto;
+width: 55%;
+margin-top:15px;
+margin-bottom: 55px;
+  }
+}
+
+
+@media screen and (max-width: $mobile-break) {
+  .mobile-x{
+    display: none!important;
+  }
+  h1{
+    font-size: 38px!important;
+  }
+  .header__content{
+    p{
+      width: 95%;
+      font-family: "Raleway-Medium";
+      font-size: 14px;
+      margin-top:50px;
+      letter-spacing:1px
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-break) {
+.header{
+  width: 100%;
+}
+  .mobile-x{display: block;}
+}

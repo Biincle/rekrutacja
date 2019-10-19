@@ -1,0 +1,458 @@
+@font-face {
+font-family: "Raleway-Medium";
+src: url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype"); }
+@font-face {
+font-family: "Raleway-Regular";
+src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+@font-face {
+font-family: "Millunium-Medium";
+src: url("../fonts/Millunium/Millunium-Medium.ttf") format("truetype"),
+url("..fonts/Millunium/Millunium-Medium.woff") format("woff"),
+url("../fonts/Millunium/Millunium-Medium.svg") format("svg"),
+url("../fonts/Millunium/Millunium-Medium.eot") format("eot");
+}
+@font-face {
+font-family: "Font Awesome";
+src: url("../fonts/Font Awesome/fontawesome-webfont.ttf") format("truetype"),
+url("../fonts/Font Awesome/fontawesome-webfont.woff") format("woff"),
+url("../fonts/Font Awesome/fontawesome-webfont.svg") format("svg"),
+url("../fonts/Font Awesome/fontawesome-webfont.otf") format("eot");
+
+
+}
+
+.title{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway-Regular";
+  letter-spacing: 3px;
+  color:$gray;
+
+}
+.card{
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  left:15%;
+  top:130px;
+  background-color: $white-color;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  border-radius: 2px;
+  z-index: 10;
+
+  h3{
+    margin-top:10px;
+    font-family: "Millunium-Medium";
+
+  }
+
+  p{
+    font-size: 15px;
+    width: 80%;
+    @font-face {
+    font-family: "Raleway-Regular";
+    src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+  }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .card-content{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+}
+
+
+.text-box{
+  width: 648px;
+  height: 352px;
+  background-color: $green-color;
+  border-radius: 5px;
+  position: relative;
+left: 48%;
+
+
+
+  p{
+    color:$white-color;
+    width: 80%;
+    float: right;
+    margin-right: 10px;
+    margin-top:35px;
+    font-size: 15px;
+    font-family: "Raleway-Medium";
+  }
+  .text-box__personInfo{
+    position: absolute;
+    left: 18%;
+    bottom: 35px;
+    color:$white-color;
+  }
+  .text-box__personInfo span{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
+  }
+  .text-box__personInfo img{
+    width: 64px;
+    height: 64px;
+    background-color: $white-color;
+    border-radius: 50px;
+  }
+}
+
+
+@media screen and (max-width: $mobile-break) {
+
+  .text-box{
+    p{
+      width: 100%;
+    }
+  }
+.text-box__personInfo span{
+  margin-top: 10px;
+  float: right;
+  margin-right: 30px;
+
+
+}
+
+
+}
+
+//***********************
+// Info Tournament Section
+//
+.page__infoTournamentContainer{
+  height: 519px;
+
+
+img{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 45%;
+  bottom: -325px;
+}
+
+
+  .stats{
+    width: 500px;
+    background-color: $green-color;
+    color:$white-color;
+    padding: 10px;
+    position: absolute;
+    left: 18%;
+    bottom: -455px;
+
+.row{
+  text-align: center;
+}
+p{
+  font-weight: bold;
+  font-family: "Raleway-Regular";
+
+}
+h5{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+  h2{
+    margin:0;
+
+    font-weight: lighter;
+  }
+  }
+}
+@media screen and (max-width: $mobile-break) {
+.page__infoTournamentContainer{
+  width: 100%;
+  height: auto;
+  img{
+    width: 100%;
+    height: 320px;
+    position: static;
+
+  }
+  .card{
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    left:0;
+    top:50px;
+
+    p{width:100%;}
+  }
+  .stats{
+    width: auto;
+    position: initial;
+  }
+}
+}
+
+@media (min-width: $tablet-break) and (max-width: 1024px) {
+  .page__infoTournamentContainer{
+
+    .card{
+      width: 504px;
+      height: 474px;
+      left:2%;
+    }
+.stats{
+      width: 254px;
+      left: 65%;
+      bottom: -420px;
+}
+
+img{
+  width: 512px;
+  height: 320px;
+  left: 5%;
+bottom: -585px;
+}
+
+}
+
+}
+  //
+  // Info Tournament Section
+  //************************
+
+.page__info{
+  height: auto;
+
+.card{
+  top:100px;
+}
+
+
+  .stats{
+    width: 500px;
+    background-color: $green-color;
+    color:$white-color;
+    padding: 10px;
+    position: absolute;
+    left: 18%;
+    bottom: -455px;
+
+.row{
+  text-align: center;
+}
+p{
+  font-weight: bold;
+  @font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"); }
+
+}
+h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Raleway-Regular";
+  color: $light-gray-color;
+}
+
+  h2{
+    margin:0;
+    font-family: "Millunium";
+  }
+  }
+}
+@media screen and (max-width: $mobile-break)  {
+.page__info{
+  height: auto;
+  .card{
+    width: 90%;
+position: relative;
+left: 0;
+margin: 0 auto;
+text-align: center;
+
+p{
+  width: 100%;
+}
+  }
+  .text-box{
+    width: 100%;
+    position: relative;
+    left: 0;
+    padding: 50px 20px;
+    height: auto;
+    margin-top: 60px;
+
+    p{
+      float: none;
+
+    }
+    .text-box__personInfo{
+      position: static
+    }
+  }
+}
+
+}
+
+@media (min-width: $tablet-break) and (max-width: 1024px) {
+  .page__info{
+    height: auto;
+
+    .card{
+      width: 600px;
+      height: 360px;
+      left:5%
+    }
+    .text-box{
+      left: 13%;
+    bottom: -50px;
+    }
+  }
+
+}
+@media (min-width: 1281px) {
+  .page__info{
+    margin-bottom: 100px;
+  }
+}
+
+
+  //***********************
+  // Tournament Reward Section
+  //
+
+  .page__rewardContainer{
+   height: 719px;
+   background-color: $white-color;
+   text-align: center;
+
+   .page__rewardContent{
+     padding-top:200px;
+   }
+   h2{
+     color:$light-gray-color;
+     font-weight: lighter;
+   }
+
+
+
+   .row{
+     text-align: center;
+   }
+
+   img{
+     margin-bottom: 10px;
+   }
+
+
+ }
+@media screen and (max-width: $mobile-break) {
+.page__rewardContainer{
+ height: auto;
+background-color: #fff;
+text-align: center;
+}
+
+.page__rewardContent{
+  padding-top:50px!important;
+}
+}
+
+@media (min-width: $tablet-break) and (max-width: 1024px) {
+.page__rewardContainer{
+  height: auto;
+  margin-top: 350px;
+}
+}
+
+
+
+
+ //
+ // Tournament Reward Section
+ //************************
+
+
+ //***********************
+ // Page Contact Section
+ //
+ .page__contactContainer{
+   height: 615px;
+   background-color: $white-color;
+   .contactContainer--header{
+     margin-top:25px;
+
+      h3{
+       margin-top:5px;
+       font-family: "Millunium-Medium";
+       font-weight: lighter;
+     }
+
+   }
+
+
+   img{
+     width: 555px;
+     height: 420px;
+   }
+ @media screen and (min-width: $desktop-break) {
+   .row{
+
+     margin: 0 auto;
+     padding: 30px 20px;
+     padding-top: 100px
+   }
+ }
+   .col-md-6{
+
+     &:first-of-type{
+       text-align: center;
+     }
+   }
+
+ }
+
+
+
+ @media screen and (max-width: $mobile-break) {
+
+   .page__contactContainer{
+     img{
+       width: 100%;
+       height: 320px;
+       position: static;
+     }
+     .col-md-6{padding:0!important;}
+     form button{
+       width: 90%;
+       margin-top:50px;
+     }
+     form{
+       text-align: center;
+     }
+      .contactContainer--header{
+        margin-left:15px;
+      }
+
+ }
+ }
+@media (min-width: $tablet-break) and (max-width: 1024px) {
+  .page__contactContainer{
+ padding-top: 150px;
+ height: auto;
+ img{
+   width: 728px;
+   height: 360px;
+ }
+.input-group{
+  width: 100%;
+}
+form{
+  margin-bottom: 10px;
+}
+
+}
+}
